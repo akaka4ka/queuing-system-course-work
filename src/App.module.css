@@ -1,0 +1,57 @@
+.valuesForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.valuesFormColumn {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.valuesFormInput {
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.valuesFormButton {
+    align-self: center;
+    margin: 0;
+}
+
+.nextEventButtonWrapper {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.anyButton {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.anyButton:hover {
+    background-color: #D2D2FF;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.anyButton:disabled {
+    background-color: #B4B4B4;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+}

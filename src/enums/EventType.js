@@ -1,0 +1,5 @@
+export const EventType = {
+    NEW_BID: "NEW_BID",
+    DEVICE_RELEASE: "DEVICE_RELEASE",
+    EXECUTION_STOP: "EXECUTION_STOP",
+}
