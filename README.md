@@ -4,7 +4,7 @@
 #### This web application simulates a queuing system with multiple sources, devices and buffer cells. <br>
  - Sources generate applications according to the Poisson distribution law. <br>
  - The devices process requests from sources for a random time, which is generated according to the law of uniform distribution.
- - The discipline of refusing a service request is "the oldest in the buffer". That is, if the buffer is full and a new request passes, the oldest request is deleted from the buffer.
+ - The discipline of refusing a request is "the oldest in the buffer". That is, if the buffer is full and a new request passes, the oldest request is deleted from the buffer.
  - The discipline of selecting service requests is LIFO.
  - Device selection discipline is "priority by device number". <br>
 #### There are two ways to output results and simulation:
