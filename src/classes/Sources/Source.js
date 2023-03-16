@@ -15,7 +15,6 @@ export class Source {
     }
 
     nextBid() {
-        console.log(lambda);
         return {
             sourceId: this.id,
             bidId: this.bidId++,

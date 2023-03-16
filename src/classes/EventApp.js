@@ -76,11 +76,9 @@ export class EventApp {
 
     autoModeCalculation() {
         let isDone = false;
-        //console.log(this.totalBidsCount);
 
         while (!isDone) {
             if (this.handleNextEvent().type === EventType.EXECUTION_STOP) {
-                //console.log("DURA DONE");
                 isDone = true;
             }
         }
@@ -92,10 +90,6 @@ export class EventApp {
         }
 
         const nextEvent = EventCalendar.getNextEvent();
-
-        if (EventCalendar.eventHistory.length - 1 === EventCalendar.eventPointer) {
-            //console.log(nextEvent);
-        }
 
         if (nextEvent.type === EventType.NEW_BID) {
             this.#handleNewBidEvent(nextEvent);

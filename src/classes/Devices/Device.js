@@ -14,7 +14,6 @@ export class Device {
     }
 
     getHandlingTime() {
-        console.log(a, b);
         return this.handlingTime;
     }
 
