@@ -1,5 +1,5 @@
 # Queuing system model
-### Just a architecture of software systems course work.
+### Just an architecture of software systems course work.
 
 #### This web application simulates a queuing system with multiple sources, devices and buffer cells. <br>
  - Sources generate applications according to the Poisson distribution law. <br>
